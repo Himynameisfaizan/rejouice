@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "NB International Pro Book"; */
+    /* font-family: "Rejouice Headline"; */
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+
+}
+.page-one{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: absolute;
+}
+
+.cursor{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(27, 26, 26, 0.737);
+    border-radius: 50%;
+    position: absolute;
+    /* z-index: -1; */
+}
+
+.cursor h3{
+    color: white;
+    font-family: "rejouice headline";
+    display: flex;
+    /* align-items: center; */
+    margin-top: 40px;
+    font-family: monospace;
+    font-weight: 400;
+    justify-content: center;
+}
+.page-one video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.page-two{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+}
+
+.page-two nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-two nav h3{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+    padding: 40px 30px;
+    cursor: pointer;
+}
+.page-two nav h4{
+    font-size: 1.4rem;
+    font-family: monospace;
+    color: white;
+    font-weight: 300;
+    padding: 40px 35px;
+    cursor: pointer;
+}
+
+.page-two .span{
+    font-size: 19rem;
+    padding: 170px 0px 0px 0px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: white;
+}
+
+.head-main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
